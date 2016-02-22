@@ -20,7 +20,7 @@ app.use(compression());
 }));*/
 app.use(methodOverride());
 
-app.use(express.static(path.join(__dirname, './client/staticWeb')));
+app.use(express.static(path.join(__dirname, './public')));
 
 app.set('dbUrl', process.env.BBDD || config.db.test);
  // connect mongoose to the mongo dbUrl
