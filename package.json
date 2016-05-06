@@ -2,32 +2,27 @@
   "name": "OPHoras",
   "version": "0.0.1",
   "description": "A sample Node.js app using Express 4",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node main.js",
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "body-parser": "1.14.*",
-    "compression": "~1.0.11",
-    "email-templates": "0.0.5",
-    "express": "4.13.*",
+    "body-parser": "latest",
+    "compression": "latest",
+    "express": "latest",
     "jwt-simple": "latest",
-    "method-override": "~2.0.1",
+    "method-override": "latest",
     "moment": "latest",
-    "mongoose": "4.1.*",
-    "node-uuid": "~1.4.1",
-    "nodemon": "^1.8.1",
-    "q": "~1.0.1",
+    "mongoose": "latest",
     "request": "latest",
-    "supertest": "1.1.0",
-    "validator": "~3.5.0"
+    "supertest": "latest"
   },
   "devDependencies": {
-    "mocha": "2.3.*",
-    "should": ">= 0.0.1",
-    "chai": "3.3.0",
-    "expect.js": "0.3.*"
+    "mocha": "latest",
+    "should": "latest",
+    "chai": "latest",
+    "expect.js": "latest"
   },
   "engines": {
     "node": "0.12.7"

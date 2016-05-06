@@ -6,9 +6,7 @@
  * @type {exports|module.exports}
  */
 var crypto = require('crypto'),
-    User = require('../model/users.js'),
-    service = require("./service"),
-    validator = require('validator');
+    User = require('../model/users.js');
 
 function registrar(req, res, next) {
    return res.status(400).send("No está implementado")
